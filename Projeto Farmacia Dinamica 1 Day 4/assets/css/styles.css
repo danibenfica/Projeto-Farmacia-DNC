@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+body {
+    position: relative;
+    width: 1555px;
+    height: 963px;
+    margin: 0;
+    padding: 0;
+   
+}
+
+    #firstHeader {
+        position: absolute;
+        width: 1555px;
+        height: 107px;
+        left: 0px;
+        top: 0px;
+        background: #76BEBE;
+
+
+    }
+
+    #firstHeader ul {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #F5F5F5;
+        list-style: none;
+        margin-top: 5px;
+        justify-content: space-around;
+    }
+
+    #secondHeader {
+        position: absolute;
+        width: 1579px;
+        height: 174px;
+        left: -12px;
+        top: 107px;
+        background: #FFFFFF;
+    }
+
+    #secondHeader img{
+        position: absolute;
+        width: 261px;
+        height: 160px;
+        left: 130px;
+    
+    }
+
+    #secondHeader h1 {
+        position: absolute;
+        width: 825px;
+        height: 87px;
+        left: 397px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 75px;
+        text-align: center;
+        color: #CF509C;
+    }
+
+    #secondHeader h4 {
+        position: absolute;
+        width: 771px;
+        height: 91px;
+        left: 444px;
+        top: 80px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+    }
+
+    main {
+        background-color: #F5F5F5;
+    }
+
+    #form {
+        position: relative;
+        width: 363px;
+        top: 314px;
+        left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Alegreya Sans SC';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 34px;
+        color: #000000;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #form input {
+        box-sizing: border-box;
+        width: 373px;
+        height: 54px;
+        display: flex;
+        flex-direction: column;
+        background: rgba(255, 255, 255, 0.57);
+        border-radius: 10px;
+        padding: 5px;
+        margin-bottom: 20px;
+        border: none;
+        font-family: 'Alegreya Sans SC';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    #botao {
+        position: absolute;
+        width: 306px;
+        height: 62px;
+        left: 620px;
+        top: 835px;
+        border: none;
+        background: #76BEBE;
+        border-radius: 10px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 39px;
+        line-height: 46px;
+        text-align: center;
+        color: #FFFFFF;
+
+    }
+
+
+

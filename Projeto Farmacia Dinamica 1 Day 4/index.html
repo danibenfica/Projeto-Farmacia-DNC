@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Farmácia da Gente</title>
+</head>
+<body>
+    <header id="firstHeader">
+        <ul>
+            <li>Home</li>
+            <li>Cadastro<br>
+                de Medicamentos
+            </li>
+            <li>Cadastro<br>
+                de Vacinas
+            </li>
+            <li>Cadastro<br>
+                de Cosméticos
+            </li>
+        </ul>
+    </header>
+
+    <header id="secondHeader">
+        <img src="./assets/img/medicamento.png" alt="medicamento">
+        <h1>Cadastro de Medicamentos</h1>
+        <h4>Farmácia da Gente</h4>
+    </header>
+
+    <main>
+        <form action="">
+            <div id="form">
+                    <label>Nome do Medicamento<label>
+                    <input placeholder="Bonpragrip" type="text" id="nameInput">
+                    <label for="">Quantidade Disponível</label>
+                    <input placeholder="100" type="number" id="numberInput">
+                    <label for="">Preço por Unidade</label>
+                    <input placeholder="10,00" type="number" id="priceInput">
+                    <label for="">Classe de Medicamento</label>
+                    <input placeholder="Antibiótico" type="text" id="medInput">
+            </div>
+            <input type="button" value="Cadastrar" id="botao">
+            <div id="alerta"></div>
+        </form>
+    </main>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>
