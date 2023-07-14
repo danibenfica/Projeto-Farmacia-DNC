@@ -1,5 +1,8 @@
 ![Design sem nome](https://github.com/danibenfica/Projeto-Farmacia-DNC/assets/103818625/ffc94283-c138-4774-9070-f03fc774abb0)
 
+[Link do projeto online aqui! - versão simples](https://projeto-farmacia-simples-dnc.vercel.app/)
+[Link do projeto online aqui! - versão avançado](https://projeto-farmacia-avancado-dnc.vercel.app/)
+
 ## Projeto Farmácia
 
 O projeto "Farmácia" consiste em dois projetos: "Farmácia Simples" e "Farmácia Avançada". Ambos os projetos são sistemas de cadastro de medicamentos em uma farmácia. Aqui detalharei cada um individualmente!
