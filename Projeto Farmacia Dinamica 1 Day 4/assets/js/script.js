@@ -14,6 +14,7 @@ botao.addEventListener('click', function() {
   if (!nome || !quantidade || !preco || !medicamento) {
     if (!nome || !quantidade || !preco || !medicamento) {
       const div = document.createElement('div');
+        div.id = 'med'
         div.innerHTML = '<p style="font-weight: 800;">Desculpe, não foi possível concluir o cadastro.</p><p style="margin-top: 2em;">Você precisa preencher todos os campos para cadastrar o medicamento.</p>';
         div.style.background = 'rgba(0, 0, 0, 0.82)';
         div.style.color = '#FFFFFF';
@@ -45,6 +46,7 @@ botao.addEventListener('click', function() {
         button.style.marginLeft = 'auto';
         button.style.fontFamily = 'Alegreya Sans SC';
         button.style.fontSize =  '28px';
+        button.id = 'okButton'
 
 
       
@@ -72,6 +74,7 @@ botao.addEventListener('click', function() {
     `;
 
     botao.value = 'Voltar';
+    botao.id = 'voltar'
 
     botao.addEventListener('click', function() {
       window.location.href = 'index.html'; 
